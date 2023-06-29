@@ -1,52 +1,76 @@
 {
-  "toys": [
+  "pizzas": [
     {
       "id": 1,
-      "name": "Woody",
-      "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
+      "name": "Pepperoni Pizza",
+      "image": "https://i0.wp.com/blog.slicelife.com/wp-content/uploads/2019/05/pep.jpg?w=1200&ssl=1",
+      "ingredients":["pizza sauce","mozzarella cheese","pepperoni"],
+      "size": "medium",
       "likes": 8
     },
     {
       "id": 2,
-      "name": "Buzz Lightyear",
-      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
+      "name": "Shrimp and Bacon Pizza",
+      "image": "https://static.kcet.kcet.production.k2.m1.brightspot.cloud/dims4/default/815475c/2147483647/strip/true/crop/600x400+0+0/resize/600x400!/format/webp/quality/90/?url=http%3A%2F%2Fkcet-brightspot.s3.amazonaws.com%2Flegacy%2Fsites%2Fkl%2Ffiles%2Fatoms%2Farticle_atoms%2Fwww.kcet.org%2Fliving%2Ffood%2Fshrimp_bacon_pizza.jpg",
+      "ingredients":["garlic","butter","seasoned ricotta","mozzarella","parmesan","Shrimp","Bacon"],
+      "size":"Extra Large",
       "likes": 14
     },
     {
       "id": 3,
-      "name": "Mr. Potato Head",
-      "image": "https://vignette.wikia.nocookie.net/universe-of-smash-bros-lawl/images/d/d8/Mr-potato-head-toy-story.gif/revision/latest?cb=20151129131217",
+      "name": "Supreme Pizza",
+      "image": "https://www.supremepizzasf.com/wp-content/uploads/2013/08/classic.jpg",
+      "ingredients":["pepperoni","sausage","bell peppers","onions","olives"],
+      "size":"Large",
       "likes": 3
     },
     {
       "id": 4,
-      "name": "Slinky Dog",
-      "image": "https://www.freeiconspng.com/uploads/slinky-png-transparent-1.png",
+      "name": "Pizza Margherita",
+      "image": "https://img.taste.com.au/9L1Xn6nE/w643-h428-cfill-q90/taste/2016/11/eat-pray-love-39581-3.jpeg",
+      "ingredients":["Tomatoes","mozzarella","basil"],
+      "size":"Small",
       "likes": 4
     },
     {
       "id": 5,
-      "name": "Rex",
-      "image": "http://umich.edu/~chemh215/W11HTML/SSG5/ssg5.2/FRex.png",
+      "name": "Pizza marinara",
+      "image": "https://cdn.shopify.com/s/files/1/0205/9582/articles/marinara-for-web.jpg?crop=center&height=800&v=1660909857&width=800",
+      "ingredients":["Tomato sauce", "olive oil","oregano","garlic"],
+      "size":"Large",
       "likes": 1
     },
     {
       "id": 6,
-      "name": "Bo Peep",
-      "image": "http://4.bp.blogspot.com/_OZHbJ8c71OM/Sog43CMFX2I/AAAAAAAADEs/0AKX0XslD4g/s400/bo.png",
+      "name": "Pizza pugliese",
+      "image": "https://www.tavolartegusto.it/wp/wp-content/uploads/2018/04/Focaccia-barese-Ricetta-Focaccia-barese.jpg",
+      "ingredients":["Tomato","Onion","Mozzarella"],
+      "size":"medium",
       "likes": 2
     },
     {
       "id": 7,
-      "name": "Hamm",
-      "image": "https://cdn140.picsart.com/244090226021212.png?r1024x1024",
+      "name": "Pizza quattro formaggi",
+      "image": "https://www.italianstylecooking.net/wp-content/uploads/2020/04/Pizza-quattro-formaggi-neu-768x512.jpg",
+      "ingredients":["Mozzarella","Gorgonzola","Fontina","Parmesan"],
+      "size":"Small",
       "likes": 0
     },
     {
       "id": 8,
-      "name": "Little Green Men",
-      "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
-      "likes": -2
+      "name": "Pizza quattro stagioni",
+      "image": "https://i0.wp.com/www.piccolericette.net/piccolericette/wp-content/uploads/2016/07/3017_Pizza.jpg?resize=895%2C616&ssl=1",
+      "ingredients":["Artichokes","Mushroom","Ham","Tomatoes"],
+      "size":"Large",
+      "likes": 2
+    },
+    {
+      "id":9,
+      "name":"Seafood pizza",
+      "image":"https://d3lp4xedbqa8a5.cloudfront.net/s3/digital-cougar-assets/AwwFood/2020/09/11/9616/SEAFOOD-PIZZA_SIMPLY-SEAFOOD-HL1065D25A-(3).jpg?width=768&height=639&mode=crop&quality=75&anchor=middlecenter",
+      "ingredients":["fish","shellfish","squid"],
+      "size":"Small",
+      "likes":2
     }
   ]
 }
