@@ -14,22 +14,21 @@ To set up your database, update the `db/seeds.json` file to contain an object
 with a key pointing to an array of data, like this:
 
 ```json
-{
-  "toys": [
+"pizzas": [
     {
       "id": 1,
-      "name": "Woody",
-      "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 8
+      "name": "Pepperoni Pizza",
+      "image": "https://i0.wp.com/blog.slicelife.com/wp-content/uploads/2019/05/pep.jpg?w=1200&ssl=1",
+      "ingredients": "pizza sauce, mozzarella cheese, pepperoni",
+      "size": "Small"
     },
     {
       "id": 2,
-      "name": "Buzz Lightyear",
-      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "likes": 14
-    }
-  ]
-}
+      "name": "Shrimp and Bacon Pizza",
+      "image": "https://static.kcet.kcet.production.k2.m1.brightspot.cloud/dims4/default/815475c/2147483647/strip/true/crop/600x400+0+0/resize/600x400!/format/webp/quality/90/?url=http%3A%2F%2Fkcet-brightspot.s3.amazonaws.com%2Flegacy%2Fsites%2Fkl%2Ffiles%2Fatoms%2Farticle_atoms%2Fwww.kcet.org%2Fliving%2Ffood%2Fshrimp_bacon_pizza.jpg",
+      "ingredients": "garlic ,butter , seasoned ricotta , mozzarella, parmesan, Shrimp, Bacon",
+      "size": "Extra Large"
+    },
 ```
 
 Then, run `npm run seed` to copy data from the `db/seeds.json` file to the
