@@ -12,7 +12,7 @@
       "name": "Shrimp and Bacon Pizza",
       "image": "https://static.kcet.kcet.production.k2.m1.brightspot.cloud/dims4/default/815475c/2147483647/strip/true/crop/600x400+0+0/resize/600x400!/format/webp/quality/90/?url=http%3A%2F%2Fkcet-brightspot.s3.amazonaws.com%2Flegacy%2Fsites%2Fkl%2Ffiles%2Fatoms%2Farticle_atoms%2Fwww.kcet.org%2Fliving%2Ffood%2Fshrimp_bacon_pizza.jpg",
       "ingredients": "garlic ,butter , seasoned ricotta , mozzarella, parmesan, Shrimp, Bacon",
-      "size": "Extra Large"
+      "size": "Large"
     },
     {
       "id": 3,
@@ -63,5 +63,8 @@
       "ingredients": "fish, shellfish, squid",
       "size": "Small"
     }
+  ],
+  "user": [
+    
   ]
 }
